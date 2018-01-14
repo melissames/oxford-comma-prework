@@ -12,6 +12,7 @@ def oxford_comma(array)
         and_string << " and #{word}"
       else
         comma_string << "#{word}, "
+      end  
     }
     comma_string + and_string
   end
