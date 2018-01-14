@@ -9,7 +9,7 @@ def oxford_comma(array)
   else
     array.each_with_index { |word, index|
       if array[index] == array[-1]
-        and_string << " and #{word}"
+        and_string << "and #{word}"
       else
         comma_string << "#{word}, "
       end
